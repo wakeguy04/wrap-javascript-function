@@ -1,2 +1,3 @@
-var DELIM_SIZE = 4;
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const merge = (a, b) => [...a, ...b];
+const maxNumber = arr => Math.max(...arr);
+const flattenedArray = arr => [].concat(...arr);
