@@ -1,1 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const executableName = getExecutableName(channel, appName);
