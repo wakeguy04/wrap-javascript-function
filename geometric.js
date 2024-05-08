@@ -1,2 +1,2 @@
-const merge = [...new Set(a.concat(b))];
-function myAPITS(someString: string, someNum: number) { ... };
+const arrayContains = (arr, element) => arr.includes(element);
+const isEmptyArray = arr => !arr.length;
