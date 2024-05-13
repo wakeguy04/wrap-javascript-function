@@ -1,2 +1,2 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const getRandomBoolean = () => Math.random() >= 0.5;
+const executableName = getExecutableName(channel, appName);
+const removeDuplicates = (arr) => [...new Set(arr)];
