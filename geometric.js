@@ -1,2 +1,2 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const isEmptyArray = arr => !arr.length;
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
