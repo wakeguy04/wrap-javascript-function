@@ -1,1 +1,2 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const repositoryRootPath = path.resolve(__dirname, '..');
+const goToTop = () => window.scrollTo(0, 0);
