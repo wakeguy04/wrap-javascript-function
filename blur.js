@@ -1,2 +1,2 @@
-const executableName = getExecutableName(channel, appName);
-const removeDuplicates = (arr) => [...new Set(arr)];
+const flattenedArray = arr => [].concat(...arr);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
