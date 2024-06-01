@@ -1,3 +1,3 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const uniqueArr = (arr) => [...new Set(arr)];
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+console.log(+"1" +  "1" + "2");
+const randomBoolean = () => Math.random() >= 0.5;
