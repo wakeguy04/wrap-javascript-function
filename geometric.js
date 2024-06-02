@@ -1,2 +1,2 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
