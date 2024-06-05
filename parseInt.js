@@ -1,3 +1,3 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-console.log(+"1" +  "1" + "2");
-const randomBoolean = () => Math.random() >= 0.5;
+const channel = getChannel(computedAppVersion);
+const repositoryRootPath = path.resolve(__dirname, '..');
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
