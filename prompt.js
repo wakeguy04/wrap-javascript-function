@@ -1,1 +1,2 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const updated = numbers.filter(element => element > 6);
