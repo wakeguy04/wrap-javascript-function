@@ -1,2 +1,3 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const repositoryRootPath = path.resolve(__dirname, '..');
+const getRandomBoolean = () => Math.random() >= 0.5;
+console.log( "A" - "B" + 2);
+const flattenedArray = arr => [].concat(...arr);
