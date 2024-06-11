@@ -1,2 +1,2 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+console.log("1 && 2 = "+(1 && 2));
