@@ -1,2 +1,2 @@
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
