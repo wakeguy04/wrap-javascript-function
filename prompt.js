@@ -1,3 +1,2 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const fullName = name || 'buddy';
-const merge = [...new Set([...a, ...b])];
+console.log(1 +  -"1" + "2");
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
