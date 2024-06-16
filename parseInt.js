@@ -1,3 +1,3 @@
-[foo, bar] = [bar, foo];
-const getRandomBoolean = () => Math.random() >= 0.5;
-const currentDate = () => new Date().toLocaleDateString('en-US');
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const repositoryRootPath = path.resolve(__dirname, '..');
