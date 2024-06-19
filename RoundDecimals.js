@@ -1,2 +1,1 @@
-const flattenedArray = arr => [].concat(...arr);
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const value = ( 5 < 7 ) ? "True" : "False" ;
