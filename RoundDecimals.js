@@ -1,1 +1,2 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const flattenedArray = arr => [].concat(...arr);
+const results = await Promise.all(resultingPromises);
