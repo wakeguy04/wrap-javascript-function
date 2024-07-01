@@ -1,2 +1,1 @@
-const flattenedArray = arr => [].concat(...arr);
-const results = await Promise.all(resultingPromises);
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
