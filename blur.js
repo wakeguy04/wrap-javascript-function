@@ -1,3 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const getRandomBoolean = () => Math.random() >= 0.5;
+var pattern = {};
 const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const isEmptyArray = arr => !arr.length;
