@@ -1,3 +1,2 @@
-var pattern = {};
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const isEmptyArray = arr => !arr.length;
+const merge = (a, b) => [...a, ...b];
+const apmRootPath = path.join(repositoryRootPath, 'apm');
