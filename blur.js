@@ -1,2 +1,1 @@
-const merge = (a, b) => [...a, ...b];
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+console.log("0 || 1 = "+(0 || 1));
