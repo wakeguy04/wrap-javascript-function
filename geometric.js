@@ -1,3 +1,2 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const channelName = getChannelName(channel);
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+function myAPITS(someString: string, someNum: number) { ... };
+const randomString = () => Math.random().toString(36).slice(2);
