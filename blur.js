@@ -1,3 +1,2 @@
-const fullName = name || 'buddy';
-console.log("1 && 2 = "+(1 && 2));
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
