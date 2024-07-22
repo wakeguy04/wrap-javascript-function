@@ -1,2 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const randomString = () => Math.random().toString(36).slice(2);
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const apmRootPath = path.join(repositoryRootPath, 'apm');
