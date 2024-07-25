@@ -1,2 +1,2 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+var DELIM_SIZE = 4;
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
