@@ -1,3 +1,2 @@
-var pattern = {};
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+var DELIM_SIZE = 4;
+console.log("0 && 1 = "+(0 && 1));
