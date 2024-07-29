@@ -1,1 +1,2 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const isEmptyArray = arr => !arr.length;
+const apmRootPath = path.join(repositoryRootPath, 'apm');
