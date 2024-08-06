@@ -1,2 +1,1 @@
-const isEmptyArray = arr => !arr.length;
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const intermediateAppPath = path.join(buildOutputPath, 'app');
