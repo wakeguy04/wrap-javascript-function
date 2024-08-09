@@ -1,1 +1,1 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
